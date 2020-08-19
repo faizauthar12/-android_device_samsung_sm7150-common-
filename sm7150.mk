@@ -69,5 +69,5 @@ PRODUCT_COPY_FILES += \
 
 # Lineage
 ifneq ($(LINEAGE_BUILD),)
--include $(COMMON_PATH)/sm7150_lineage.mk
+-include $(COMMON_PATH)/sm7150_ion.mk
 endif
